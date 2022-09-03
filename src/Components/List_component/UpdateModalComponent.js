@@ -19,7 +19,7 @@ const UpdateModalComponent = ({
   let value;
 
   // state variable for storing updated data
-  const [updated_data,set_updated_data] = useState(update_data)
+  const [updated_data,set_updated_data] = useState({})
 
   // takes and stores object input from update modal 
   let handle_input = (e) => {
@@ -27,7 +27,8 @@ const UpdateModalComponent = ({
     value = e.target.value
     if ( attribute === 'price_per_unit' || attribute === 'quantity')
     value = parseInt(e.target.value)
-    set_updated_data({ ...update_data, [attribute]: value });
+    update_data[attribute] = value
+    set_updated_data(update_data);
     if (attribute === "item") validateItem(value);
     else if (attribute === "price_per_unit") validatePrice_per_unit(value);
     else if (attribute === "category") validateCategory(value);
