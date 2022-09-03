@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.update-area
+{
+    width: 70%;
+    background-color: white;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid orangered;
+}
+
+.overlay
+{
+    width:100% ;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background:transparent;
+    background-color: rgba(128,128,128,0.5);
+}
+
+.input-area
+{
+    color: rgb(186, 83, 7);
+    margin: 0.8em auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0.05em;
+}
+
+.input-area div
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0.2em;
+    padding: 0 6px;
+}
+
+.input-area div label , .input-area div input ,.input-area div select
+{
+    width: 50%;
+    padding: 10px;
+}
+
+.input-area div input ,.input-area div select
+{
+    background-color: rgb(255, 231, 221);
+}
+.input-area div label
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.update-area h1
+{
+    padding: 0.2em;
+    margin:0 auto;
+    text-align: center;
+    border: none;
+    background-color: white;
+    border-radius: 0;
+    border-bottom: 2px solid orangered;
+    background: transparent;
+}
+
+.button-align
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-bottom: 2em;
+}
+
+.button-align div
+{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.update-button-enable,.cancel
+{
+    width: 80%;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    border: 2px solid red;
+    height: 2rem;
+}
+
+.update-button-disable
+{
+    width: 80%;
+    background-color: rgb(223, 151, 126);
+    color: white;
+    cursor: pointer;
+    border: 2px solid red;
+    height: 2rem;
+}

@@ -1,0 +1,134 @@
+*
+{
+    margin: 0;
+    padding: 0;
+      
+}
+.History-page
+{
+    width: 90%;
+    margin: auto;
+    margin-top: 2.2em;
+    margin-bottom: 2.2em;
+    border-radius: 1.8rem;
+    background-color: white;
+    border: 0.3rem solid rgb(186, 83, 7);
+}
+
+.page-heading
+{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.History-page h1
+{
+    text-align: center;
+    border-style: solid;
+    width: 97%;
+    border-radius: 1.19rem;
+    border-width: 0.19rem;
+    border-color:rgb(186, 83, 7);
+    color:rgb(186, 83, 7);
+    background-color: rgb(240, 226, 215);
+}
+
+.History-style
+{
+    background-image: url(../../assets/background.png);
+    margin-bottom: 0.5em;
+    padding-top: 0.05em;
+    padding-bottom: 0.05em;
+    border-radius: 1.19rem;
+    color: rgb(235, 104, 8);
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+    border: 0.125rem solid rgb(235, 104, 8);
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    margin:0.3em 0.2em;
+}
+
+.History-style div
+{
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        width: 20%;
+}
+
+.History-list h2
+{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    color:rgb(235, 104, 8);
+    font-size: small;
+}
+
+.History-list hr
+{
+margin: auto;
+}
+
+.History-List-heading
+{
+    display:flex;
+    background-color: rgb(235, 104, 8);
+    border-radius: 0.313rem;
+    border: 0.19rem solid rgb(211, 20, 20);
+    margin: 0.3em 1em;
+}
+
+.History-List-heading div
+{
+        color: white;
+        margin: auto;
+        width:100%;
+        margin:0 0.2em;
+        display: flex;
+        justify-content: center;   
+}
+
+.date-style
+{
+    width: 50%;
+}
+
+.History-list
+{
+    padding-bottom: 2em;
+    margin:1em;
+}
+
+.History-list div
+{
+    margin: 0.2em;
+}
+
+.button-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clear-history-button
+{
+    background-color: rgb(255, 86, 24);
+    color: white;
+    border: 2px solid red;
+    height: 5vh;
+    width: 10rem;
+    margin: 1em;
+    cursor: pointer;
+}
+.disable-button-container
+{
+    display: none;
+}

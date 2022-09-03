@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: rgb(186, 83, 7);
+  width: 100%;
+  height: 7vh;
+  font-size: xx-large;
+  display: flex;
+}
+.heading-decoration {
+  font-weight: lighter;
+  color: white;
+}
+
+.logout-icon-button {
+  color: rgb(186, 83, 7);
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  border-radius: 0.56rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-width: 0;
+  cursor: pointer;
+}
+
+.align-item-1 {
+  display: flex;
+  width: 95%;
+}
+.align-item-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grocery_icon {
+  margin: 0.3rem;
+  color: white;
+}
+
+h5 {
+  padding-top: 1vh;
+  margin: 0;
+  color: white;
+}
+
+.logout-icon-button:hover {
+  background-color: rgb(243, 194, 159);
+}
+
+/* Important note - Media queries needs same specificity*/
+@media (max-width: 80rem) {
+  .header {
+    height: auto;
+  }
+}

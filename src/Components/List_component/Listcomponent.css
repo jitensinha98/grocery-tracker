@@ -1,0 +1,163 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.List-style
+{
+    background-image: url(../../assets/background.png);
+    margin-bottom: 0.5em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    border-radius: 1.19rem;
+    color: rgb(235, 104, 8);
+    display: flex;
+    border: 0.125rem solid rgb(235, 104, 8);
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    margin:0.3em 1em;
+    min-height: 2rem;
+    padding: 0.8em;
+}
+.strike-item
+{
+    text-decoration: line-through;
+    text-decoration-style:solid;
+    text-decoration-color: brown;
+    background-image: url(../../assets/background.png);
+    margin-bottom: 0.5em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    border-radius: 1.19rem;
+    color: rgb(235, 104, 8);
+    display: flex;
+    border: 0.125rem solid rgb(235, 104, 8);
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    margin:0.3em 1em;
+    min-height: 2rem;
+    padding: 0.8em;
+}
+
+.List-style div,.strike-item div
+{
+    margin: auto;
+    flex-grow: 1;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.delete-button
+{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: large;
+    font-weight: bolder;
+    padding: 0.3em;
+    color:brown;
+    border: 0.125rem solid rgb(235, 104, 8);
+    width: 1.5em;
+    height: 1.5em;
+    margin:0.2em;
+}
+
+.edit-button
+{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    font-size: large;
+    font-weight: bolder;
+    padding: 0.3em;
+    color:cornflowerblue;
+    border: 0.125rem solid rgb(235, 104, 8);
+    margin:0.2em;
+}
+
+.List-heading
+{
+    display:flex;
+    background-color: rgb(235, 104, 8);
+    border-radius: 0.313rem;
+    border: 0.188rem solid rgb(211, 20, 20);
+    margin:0.3em 1em;
+}
+
+.List-heading div
+{
+    color: white;
+    margin: auto;
+    width:16%;
+    display: flex;
+    justify-content: center;
+    font-size: 0.8em;
+}
+
+.total-price-view
+{
+    display:flex;
+    background-color: rgb(235, 104, 8);
+    border-radius: 0.313rem;
+    border: 0.188rem solid rgb(211, 20, 20);
+    margin:0.3em 1em;
+}
+
+.total-price-view div
+{
+    margin: auto;
+    flex-grow: 1;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    padding: 0.4em;
+}
+
+.list-input-disable
+{
+    text-align: center;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: medium;
+    font-weight: bold;
+    color: orangered;
+    pointer-events: none;
+}
+
+.list-input-enable
+{
+    border-bottom: 1px solid orangered;
+    border-radius: 0;
+    text-align: center;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: medium;
+    font-weight: bold;
+    color: orangered;
+}
+.Loading-Screen-list
+{
+    width:100%;
+    height: 30vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.edit-button,.delete-button
+{
+    cursor: pointer;
+}

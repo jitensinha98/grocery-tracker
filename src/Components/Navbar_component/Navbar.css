@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Navigation_Bar {
+  background-color: white;
+  height: 93vh;
+  border-right: solid rgb(186, 83, 7);
+  padding-top: 1em;
+}
+.list-options {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  width: 100%;
+  font-size: 1.5rem;
+  border: none;
+}
+.link-style div,
+.selected div,
+.selected div,
+.selected div {
+  margin-top: 0.3em;
+}
+.link-style {
+  text-decoration: none;
+  color: rgb(186, 83, 7);
+  font-family: Helvetica;
+  font-size: 1.25rem;
+  display: flex;
+  width: 100%;
+  padding-left: 0;
+  padding-top: 5.5vh;
+  padding-bottom: 5.5vh;
+}
+.create-icon,
+.history-icon,
+.stats-icon {
+  margin-right: 2vh;
+  border-radius: 1.25rem;
+  padding: 0.2em;
+  background-color: rgb(186, 83, 7);
+  color: white;
+  font-size: xx-large;
+}
+.link-style:hover {
+  color: white;
+  background-color: rgb(235, 104, 8);
+}
+
+.list-options hr {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.selected {
+  display: flex;
+  padding-left: 8vh;
+  padding-top: 5.5vh;
+  padding-bottom: 5.5vh;
+  text-decoration: none;
+  background-color: rgb(235, 104, 8);
+  color: white;
+  font-family: Helvetica;
+  font-size: 1.25rem;
+  width: 100%;
+  padding-left: 0;
+}
+.navbar-heading {
+  display: flex;
+  border-radius: 1.25rem;
+  background-color: white;
+  margin-bottom: 0.7em;
+  margin-left: 0.7em;
+  margin-right: 0.7em;
+  border: solid;
+  border-width: 0.25rem;
+  color: rgb(186, 83, 7);
+  border-color: rgb(186, 83, 7);
+  font-family: Helvetica;
+}
+.menu-icon {
+  color: rgb(186, 83, 7);
+  font-weight: bolder;
+}
+.navbar-heading h1 {
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+.navbar-image {
+  border: 2px solid rgb(186, 83, 7);
+  height: 9.4rem;
+  width: 9.4rem;
+  border-radius: 50%;
+  margin-top: 2em;
+  margin-left: 4em;
+  background-image: url(../../assets/fruits.jpg);
+}
+
+.list-options li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 30%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.text {
+  width: 70%;
+  font-size: larger;
+}
+
+.icon-heading {
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: x-large;
+}
+
+.text-heading {
+  width: 55%;
+}
+
+@media (max-width: 80rem) {
+  .Navigation_Bar {
+    border-right: none;
+    height: auto;
+  }
+  .navbar-image {
+    border: 0.125rem solid rgb(186, 83, 7);
+    border-radius: 50%;
+    background-image: url(../../assets/fruits.jpg);
+    margin: 4em auto;
+  }
+  .icon {
+    width: 40%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  .text {
+    width: 60%;
+    font-size: larger;
+  }
+  .link-style {
+    display: flex;
+    width: 100%;
+    padding-left: 0;
+    padding-top: 5.5vh;
+    padding-bottom: 5.5vh;
+  }
+  .selected {
+    display: flex;
+    width: 100%;
+    padding-left: 0;
+    padding-top: 5.5vh;
+    padding-bottom: 5.5vh;
+  }
+
+  .icon-heading {
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: x-large;
+  }
+}

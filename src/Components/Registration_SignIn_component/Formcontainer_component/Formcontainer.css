@@ -1,0 +1,107 @@
+*
+{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.Form-Container
+{
+    height: 100vh;
+    background-image: url(/src/assets/background.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.list
+{
+    display: flex;
+    flex-direction:row;
+    background-color: white;
+    width: 28em;
+    border-radius:1rem ;
+    border: 1px solid orangered;
+    cursor: pointer;
+    list-style: none;
+}
+.register
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    color: rgb(186, 83, 7);
+    width: 50%;
+    border-right: none;
+    border-radius: 1rem 0 0 1rem;
+}
+.signin
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    color: rgb(186, 83, 7);
+    width: 50%;
+    border-left: none;
+    border-radius: 0 1rem 1rem 0;
+}
+.list li:hover
+{
+    background-color: orangered;
+    color: white;
+}
+
+.Form
+{
+    width: 28em;
+    background-color: white;
+    border-radius: 1rem;
+    margin: 0.5em;
+    border: 0.25rem solid orangered;
+    background-image: url(/src/assets/form_image.jpg);
+}
+.selected-link-register,.selected-link-signin
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.selected-link-signin
+{
+    background-color:orangered;
+    color: white;
+    border-radius: 0 1rem 1rem 0;
+    width: 50%;
+}
+
+.selected-link-register
+{
+    background-color:orangered;
+    color: white;
+    border-radius: 1rem 0 0 1rem;
+    width: 50%;
+}
+
+@media (max-width: 50rem)
+{
+    .Form
+    {
+        width: 80%;
+        background-color: white;
+        border-radius: 1rem;
+        margin: 0.5em;
+        border: 0.25rem solid orangered;
+        background-image: url(/src/assets/form_image.jpg);
+    }
+    .list
+    {
+        display: flex;
+        flex-direction:row;
+        background-color: white;
+        width: 80%;
+        border-radius:1rem ;
+        border: 1px solid orangered;
+        cursor: pointer;
+        list-style: none;
+    }
+}

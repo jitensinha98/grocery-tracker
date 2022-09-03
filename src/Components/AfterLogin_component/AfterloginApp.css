@@ -1,0 +1,74 @@
+*
+{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+.After-login-app-Container
+{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.Navbar-align
+{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.Routed-Components
+{
+  background-image: url("../../assets/background.png");
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 78%;
+  height: 93vh;
+  background-color: black;
+}
+.position-header
+{
+  height: 7vh;
+}
+.Navbar 
+{
+  width: 22%;
+}
+
+@media (max-width:80rem)
+{
+  .Navbar
+  {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto
+  }
+  .Navbar-align
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  .After-login-app-Container
+  {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+  }
+  .Routed-Components
+  {
+    width: 100%;
+    overflow-y: hidden;
+    height: auto;
+  }
+  .position-header
+  {
+    height: auto;
+  }
+}

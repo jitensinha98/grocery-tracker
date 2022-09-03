@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.Createlist-page {
+  width: 90%;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background-color: yellowgreen;
+  border-radius: 1.5rem;
+  background-color: white;
+  border: 0.25rem solid rgb(186, 83, 7);
+  height: auto;
+  padding-bottom: 1em;
+}
+
+.page-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 4rem;
+}
+
+.Createlist-page h1 {
+  text-align: center;
+  border-style: solid;
+  width: 97%;
+  border-radius: 1em;
+  border-width: 0.25rem;
+  border-color: rgb(186, 83, 7);
+  color: rgb(186, 83, 7);
+  background-color: rgb(240, 226, 215);
+  height: 3rem;
+}
+
+.input-container {
+  color: rgb(186, 83, 7);
+  margin: 0.8em auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input-box {
+  justify-self: center;
+  align-self: center;
+  height: 20vh;
+  width: 100%;
+}
+
+input,
+select {
+  color: rgb(186, 83, 7);
+  width: 100%;
+  border-radius: 1.05rem;
+  border-style: solid;
+  border-color: orangered;
+  min-height: 1.5rem;
+  padding: 0.2em;
+}
+.save-button-align {
+  text-align: center;
+  margin-bottom: 2em;
+}
+.save-button-enable {
+  width: 60%;
+  color: rgb(186, 83, 7);
+  cursor: pointer;
+  min-height: 2rem;
+  border-radius: 0.8rem;
+  font-weight: bold;
+  background-color: orangered;
+  color: white;
+  border: 0.15rem solid red;
+}
+.save-button-disable {
+  min-height: 2rem;
+  width: 60%;
+  border: 0.15rem solid orangered;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: rgb(230, 136, 102);
+  color: white;
+  border-radius: 0.8rem;
+}
+
+.input-container div button {
+  background-color: rgb(186, 83, 7);
+  border: none;
+  color: white;
+  width: 1.2rem;
+  min-height: 1.2rem;
+  font-weight: bold;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: medium;
+}
+
+.input-container div {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+}
+
+.input-container div label {
+  width: 50%;
+  margin: 1em;
+  font-weight: bold;
+}
+.input-container div input {
+  align-self: flex-start;
+  width: 50%;
+  margin: 1em;
+}
+
+.input-container div select {
+  width: 50%;
+  min-height: 0.5rem;
+}
+
+.input-container div div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+hr {
+  margin: 1em;
+  width: 95%;
+  border: 0.05rem solid rgb(186, 83, 7);
+  margin: auto;
+}
